@@ -4,6 +4,7 @@ import { useAddTransaction } from "../../hooks/useAddTransaction";
 import { useGetTransactions } from "../../hooks/useGetTransactions";
 import { useGetUserInfo } from "../../hooks/useGetUserInfo";
 import { useNavigate } from "react-router-dom";
+import "./styles.css"
 
 // import "./styles.css";
 import { auth } from "../../config/firebase-config";
